@@ -1,13 +1,11 @@
-import React from "react";
+import "./NotFoundPage.css";
 import { NavLink } from "react-router-dom";
 
 const NotFoundPage = () => {
   return (
-    <div>
+    <div className="notfound-div">
       <h1>Page not found</h1>
-      <button>
-        <NavLink to="/">Back to Home</NavLink>
-      </button>
+      <NavLink to="/">Back to Home</NavLink>
     </div>
   );
 };

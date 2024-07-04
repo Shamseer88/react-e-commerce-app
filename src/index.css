@@ -5,3 +5,9 @@
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
+
+:root {
+  --blue: #00246b;
+  --light-blue: #8ab6f9;
+  --light-blue-2: #cadcfc;
+}
