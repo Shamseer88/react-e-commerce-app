@@ -1,0 +1,17 @@
+.topnavbar {
+  background-color: var(--blue);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 50px;
+}
+
+.topnavbar a {
+  color: var(--light-blue-2);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.topnavbar a.active {
+  border-bottom: 3px solid var(--light-blue-2);
+}

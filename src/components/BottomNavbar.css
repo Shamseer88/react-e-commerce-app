@@ -1,0 +1,18 @@
+.bottom-navbar {
+  background-color: var(--light-blue);
+  color: var(--blue);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 25px;
+}
+
+.logo-icon {
+  color: var(--blue);
+}
+
+.menu-badges {
+  display: flex;
+  gap: 25px;
+}
