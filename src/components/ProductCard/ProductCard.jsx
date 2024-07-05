@@ -9,8 +9,9 @@ import {
 } from "@mui/material";
 import "./ProductCard.css";
 import { FaHeart } from "react-icons/fa";
+import TextDisplay from "../TextDisplay/TextDisplay";
 
-const ProductCard = () => {
+const ProductCard = ({ name, brand, price, image }) => {
   return (
     <div style={{ padding: "15px" }}>
       <Card sx={{ maxWidth: 250 }}>
@@ -18,8 +19,8 @@ const ProductCard = () => {
           <CardMedia
             component="img"
             height="300"
-            image="https://images.bewakoof.com/t1080/women-s-white-oversized-casual-pants-589663-1692782254-1.jpg"
-            alt="green iguana"
+            image={`${image}`}
+            alt={`${name}`}
           ></CardMedia>
           <CardContent style={{ padding: "15px 0 0 15px" }}>
             <Typography
@@ -27,9 +28,10 @@ const ProductCard = () => {
               color="text.secondary"
               sx={{
                 fontFamily: "inherit",
+                fontSize: "15px",
               }}
             >
-              Product Name
+              <TextDisplay text={name} numberOfLetters={25} />
             </Typography>
             <Typography
               gutterBottom
@@ -42,7 +44,7 @@ const ProductCard = () => {
                 fontWeight: 600,
               }}
             >
-              Brand Name
+              <TextDisplay text={brand} numberOfLetters={15} />
             </Typography>
             <div className="card-price-favorite">
               <Typography
@@ -56,7 +58,7 @@ const ProductCard = () => {
                   fontSize: "20px",
                 }}
               >
-                ₹1299
+                ₹{price}
               </Typography>
               <CardActions disableSpacing>
                 <IconButton>

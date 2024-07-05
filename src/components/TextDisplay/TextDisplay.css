@@ -1,0 +1,11 @@
+/* TextDisplay.css */
+
+.text-display-container {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.text-display-container p {
+  margin: 0;
+}
