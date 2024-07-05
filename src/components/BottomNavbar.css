@@ -16,3 +16,7 @@
   display: flex;
   gap: 25px;
 }
+
+.categories-btn {
+  background-color: transparent;
+}
