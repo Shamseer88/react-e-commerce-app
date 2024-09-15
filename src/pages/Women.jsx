@@ -4,6 +4,7 @@ import BottomNavbar from "../components/BottomNavbar/BottomNavbar";
 import { Pagination } from "@mui/material";
 import Deals from "../components/Deals/Deals";
 import Hero from "../components/Hero/Hero";
+import CategoryButtons from "../components/CategoryButtons/CategoryButtons";
 
 const Women = () => {
   return (
@@ -16,6 +17,7 @@ const Women = () => {
         sellerTag="new arrival"
         deal="New Arrival for Women"
       ></Deals>
+      <CategoryButtons />
       <Deals
         gender="Women"
         sellerTag="top rated"

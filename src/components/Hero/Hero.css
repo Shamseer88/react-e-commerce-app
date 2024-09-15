@@ -1,3 +1,9 @@
 .hero-div {
   background-color: var(--light-blue-2);
+  display: flex;
+  justify-content: center;
+}
+
+.hero-div img {
+  width: 100%;
 }

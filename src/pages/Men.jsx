@@ -5,6 +5,7 @@ import { Pagination } from "@mui/material";
 import Deals from "../components/Deals/Deals";
 import Hero from "../components/Hero/Hero";
 import TopNavbar from "../components/TopNavbar/TopNavbar";
+import CategoryButtons from "../components/CategoryButtons/CategoryButtons";
 
 const Men = () => {
   const baseDomain = "https://academics.newtonschool.co";
@@ -18,6 +19,7 @@ const Men = () => {
         sellerTag="new arrival"
         deal="New Arrivals for Men"
       ></Deals>
+      <CategoryButtons />
       <Deals
         gender="Men"
         sellerTag="top rated"
