@@ -1,0 +1,13 @@
+.footer-div {
+  background-color: var(--light-blue);
+  color: var(--blue);
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-text {
+  max-width: 700px;
+  border: 1px solid var(--light-blue-2);
+  padding: 1rem;
+}

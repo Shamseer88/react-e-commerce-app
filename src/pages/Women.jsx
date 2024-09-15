@@ -5,6 +5,7 @@ import { Pagination } from "@mui/material";
 import Deals from "../components/Deals/Deals";
 import Hero from "../components/Hero/Hero";
 import CategoryButtons from "../components/CategoryButtons/CategoryButtons";
+import Footer from "../components/Footer/Footer";
 
 const Women = () => {
   return (
@@ -23,9 +24,10 @@ const Women = () => {
         sellerTag="top rated"
         deal="Top Rated for Women"
       ></Deals>
-      <div className="pagination-div">
+      {/* <div className="pagination-div">
         <Pagination count={10} variant="outlined" color="primary" />
-      </div>
+      </div> */}
+      <Footer />
     </>
   );
 };

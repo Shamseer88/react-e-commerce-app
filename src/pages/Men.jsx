@@ -6,6 +6,7 @@ import Deals from "../components/Deals/Deals";
 import Hero from "../components/Hero/Hero";
 import TopNavbar from "../components/TopNavbar/TopNavbar";
 import CategoryButtons from "../components/CategoryButtons/CategoryButtons";
+import Footer from "../components/Footer/Footer";
 
 const Men = () => {
   const baseDomain = "https://academics.newtonschool.co";
@@ -25,9 +26,10 @@ const Men = () => {
         sellerTag="top rated"
         deal="Top Rated for Men"
       ></Deals>
-      <div className="pagination-div">
+      {/* <div className="pagination-div">
         <Pagination count={10} variant="outlined" color="primary" />
-      </div>
+      </div> */}
+      <Footer />
     </>
   );
 };
